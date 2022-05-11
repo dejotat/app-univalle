@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+    "username":"postgres",
+    "password": "jorge1993",
+    "port": 5432,
+    "host": "127.0.0.1",
+    "database":"bd_datos",
+    "synchronize":true,
+    "entities": [ "dist/**/*{.ts,.js}"],
+    "autoLoadEntities": true
+}
